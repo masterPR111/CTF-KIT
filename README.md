@@ -20,4 +20,3 @@ A professional, all-in-one toolkit for **Capture The Flag (CTF)** competitions, 
 - 🚩 **Flag Tracker** — SQLite database for CTF flags
 - 🎨 **Beautiful CLI** — Colorful menus, animations, progress bars
 
-## 📸 Screenshots
