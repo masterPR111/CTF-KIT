@@ -1,0 +1,79 @@
+# ============================================
+# CTFKit - System Tools Installation
+# ============================================
+# මේ file එකේ තියෙන commands, install.sh එකෙන්
+# එකින් එක run කරනවා.
+#
+# Format: COMMAND|DESCRIPTION
+# ============================================
+
+# ============ RECON TOOLS ============
+sudo apt install -y nmap|Network scanner
+sudo apt install -y ffuf|Fast web fuzzer
+sudo apt install -y gobuster|Directory brute-force
+sudo apt install -y dirb|Web content scanner
+sudo apt install -y whatweb|Technology detection
+sudo apt install -y whois|Domain lookup
+sudo apt install -y dnsutils|DNS tools (dig, nslookup)
+sudo apt install -y netcat-openbsd|Netcat
+sudo apt install -y curl|HTTP client
+sudo apt install -y wget|File downloader
+
+# ============ WEB TOOLS ============
+sudo apt install -y sqlmap|SQL injection tool
+sudo apt install -y nikto|Web server scanner
+sudo apt install -y wpscan|WordPress scanner
+sudo apt install -y dirsearch|Web path scanner
+
+# ============ PASSWORD TOOLS ============
+sudo apt install -y hashcat|Password cracker
+sudo apt install -y john|John the Ripper
+sudo apt install -y hydra|Login cracker
+
+# ============ FORENSICS TOOLS ============
+sudo apt install -y binwalk|Firmware analysis
+sudo apt install -y exiftool|Metadata tool
+sudo apt install -y steghide|Steganography
+sudo apt install -y foremost|File carving
+sudo apt install -y scalpel|File carving
+sudo apt install -y bulk-extractor|Forensics
+sudo apt install -y sleuthkit|Disk forensics
+
+# ============ NETWORK TOOLS ============
+sudo apt install -y tcpdump|Packet capture
+sudo apt install -y wireshark|Network analysis
+sudo apt install -y tshark|CLI packet analysis
+sudo apt install -y net-tools|Network tools
+sudo apt install -y traceroute|Network tracer
+
+# ============ CRYPTO TOOLS ============
+sudo apt install -y openssl|SSL/TLS toolkit
+sudo apt install -y gpg|GNU Privacy Guard
+
+# ============ REVERSE ENGINEERING ============
+sudo apt install -y gdb|GNU Debugger
+sudo apt install -y radare2|Reverse engineering
+sudo apt install -y ghidra|Reverse engineering
+sudo apt install -y binutils|Binary tools
+sudo apt install -y strace|System call tracer
+sudo apt install -y ltrace|Library call tracer
+
+# ============ WORDLISTS ============
+sudo apt install -y wordlists|Security wordlists
+sudo apt install -y seclists|Security lists
+
+# ============ PYTHON TOOLS ============
+pip3 install requests|HTTP library
+pip3 install beautifulsoup4|HTML parser
+pip3 install lxml|XML parser
+pip3 install pycryptodome|Crypto library
+pip3 install dnspython|DNS library
+pip3 install python-whois|Whois library
+pip3 install pyjwt|JWT library
+pip3 install rich|Rich terminal
+pip3 install tabulate|Table formatting
+pip3 install colorama|Colors
+pip3 install pillow|Image library
+pip3 install tqdm|Progress bars
+pip3 install sympy|Symbolic math
+pip3 install gmpy2|Math library
